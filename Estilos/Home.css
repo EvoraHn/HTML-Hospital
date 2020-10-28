@@ -1,0 +1,19 @@
+/*
+Index
+*/
+.encabezado
+{
+    padding: 10px,0;
+    background-color: #31404a;
+    /*Canal alfa de transpariencia*/
+    width: auto;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    background-color: #006d77;
+}
+
+.encabezado
+{
+    
+}
