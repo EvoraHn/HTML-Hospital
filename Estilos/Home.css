@@ -1,19 +1,108 @@
 /*
 Index
 */
-.encabezado
+/*?Estructura*/
+.Contenedor
 {
-    padding: 10px,0;
-    background-color: #31404a;
-    /*Canal alfa de transpariencia*/
-    width: auto;
-    height: 200px;
-    position: relative;
-    top: 50%;
-    background-color: #006d77;
+    background-color: rgb(207, 235,247);
 }
 
-.encabezado
+.Encabezado
+{
+    /*Canal alfa de transpariencia*/
+    width: auto;
+    height: 12.5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: #049dd9;
+}
+
+.Contenido
+{
+
+    position: absolute;
+    
+    top: 12.5em;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 106.125em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Pie
 {
     
+    width: auto;
+    height: 8.125em;
+    
+    /*Canal alfa de transpariencia*/
+    top: 118.625em;
+    left: 0em;
+    right: 0em;
+    
+    position: absolute;
+    background-color:  #049dd9;
+}
+
+/*! Encabezados*/
+/*Titulo*/
+h1
+{
+    position: relative;
+    right: 10%;
+    text-align: right;
+    font: normal normal normal 60px/80px Segoe UI;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+/*Banda blanca con lista de directorios*/
+.BandaBlanca
+{
+    position: relative;
+    height: 3em;
+    width: auto;
+    bottom: 1.5em;
+    background: #FFFFFF;
+}
+
+.EnlaceRutaHouse
+{
+    position: relative;
+    top: 10%;
+    float: left;
+    height: 80%;
+    bottom: 10%;
+    left: 22.5%;
+    
+}
+
+.EnlaceRutaHistoria
+{
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 32.5%;
+}
+
+.EnlaceRutaServicios
+{
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 45.5%;
+}
+
+.EnlaceRutaContactanos
+{
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 57.5%;
 }
