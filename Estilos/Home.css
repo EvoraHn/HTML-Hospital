@@ -12,11 +12,12 @@ Index
     /*Canal alfa de transpariencia*/
     width: auto;
     height: 12.5em;
-    position: absolute;
+    position: fixed;
     top: 0em;
     left: 0em;
     right: 0em;
     background-color: #049dd9;
+    z-index: 1;
 }
 
 .Contenido
@@ -54,53 +55,60 @@ h1
 {
     position: relative;
     right: 10%;
+    font-size: 3em;
     text-align: right;
-    font: normal normal normal 60px/80px Segoe UI;
+    font-family: Verdana, Arial;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 /*Banda blanca con lista de directorios*/
 .BandaBlanca
 {
+
+    
     position: relative;
     height: 3em;
     width: auto;
-    bottom: 1.5em;
+    top: 1em;
     background: #FFFFFF;
 }
 
 .EnlaceRutaHouse
 {
     position: relative;
+    font-family: Verdana, Arial;
     top: 10%;
     float: left;
-    height: 80%;
+    height: 2em;
     bottom: 10%;
-    left: 22.5%;
+    left: 15%;
     
 }
 
 .EnlaceRutaHistoria
 {
     position: relative;
+    font-family: Verdana, Arial;
     top: 10%;
     font-size: 2em;
     bottom: 10%;
-    left: 32.5%;
+    left: 30%;
 }
 
 .EnlaceRutaServicios
 {
     position: relative;
+    font-family: Verdana, Arial;
     top: 10%;
     font-size: 2em;
     bottom: 10%;
-    left: 45.5%;
+    left: 45%;
 }
 
 .EnlaceRutaContactanos
 {
     position: relative;
+    font-family: Verdana, Arial;
     top: 10%;
     font-size: 2em;
     bottom: 10%;
