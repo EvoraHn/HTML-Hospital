@@ -1,158 +1,116 @@
 
-.encabezado
+
+.Encabezado
 {
-    top: 0px;
-    left: 0px;
-    right: 2px;
-    width: 1920px;
-    height: 304px;
-    background: #0098DB;
-    border: 1px #707070;
+    
+    width: auto;
+    height: 12.5em;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: #049dd9;
     opacity: 1;
 }
 
-.barra_Navegación
+.Contenedor
 {
-    top: 186px;
-    left: 0px;
-    width: 1920px;
-    height: 93px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.texto_Barra
-{
-    top: 0px;
-    left: 512px;
-    width: 302px;
-    height: 67px;
-    text-align: left;
-    font: normal normal normal 50px/67px Segoe UI;
-    letter-spacing: 0px;
-    color: #0098DB;
-    text-transform: lowercase;
-}
-.logo_Encabezado
-{
-    top: 58px;
-    left: 203px;
-    width: 100px;
-    height: 67px;
-    text-align: left;
-    font: normal normal normal 50px/67px Segoe UI;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+    opacity: 0.99;
+    background-color: rgb(207, 235,247);
+    
 }
 
-.logo_Barra 
+.Contenido
 {
-    top: 167px;
-    left: 364px;
-    width: 147px;
-    height: 147px;
-    background: transparent url('img/noun_home icon_3574480.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+
+    
+    top: 12.5em;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 106.125em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: absolute;
 }
-.texto_Encabezado
+
+.Pie
 {
-    top: 45px;
-    left: 916px;
-    width: 785px;
-    height: 80px;
-    text-align: left;
+    
+    width: auto;
+    height: 8.125em;
+    
+    top: 118.625em;
+    left: 0em;
+    right: 0em;
+    
+    position: absolute;
+    background-color:  #049dd9;
+}
+
+
+h1
+{
+    position: relative;
+    right: 10%;
+    text-align: right;
     font: normal normal normal 60px/80px Segoe UI;
-    letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
-    opacity: 1;
 }
-.fondo
+
+.BandaBlanca
 {
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 1935px;
-    background: #CFEBF7 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 0.29;
+    position: relative;
+    height: 3em;
+    width: auto;
+    bottom: 1.5em;
+    background: #FFFFFF;
 }
-.texto_Titulo_Body
+
+.EnlaceRutaHouse
 {
-    top: 354px;
-    left: 303px;
-    width: 449px;
-    height: 120px;
-    text-align: left;
-    font: normal normal bold 90px/120px Segoe UI;
-    letter-spacing: 0px;
-    color: #707070;
-    text-transform: uppercase;
-    opacity: 1;
+    position: relative;
+    top: 10%;
+    float: left;
+    height: 80%;
+    bottom: 10%;
+    left: 22.5%;
+    
 }
-.texto_subtitulo_Body
+
+.EnlaceRuta1
 {
-    top: 513px;
-    left: 303px;
-    width: 246px;
-    height: 80px;
-    text-align: left;
-    font: normal normal normal 60px/80px Segoe UI;
-    letter-spacing: 0px;
-    color: #707070;
-    opacity: 1;
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 32.5%;
 }
-.texto_D_Body
+
+.EnlaceRuta2
 {
-    top: 931px;
-    left: 431px;
-    width: 185px;
-    height: 40px;
-    text-align: left;
-    font: italic normal normal 30px/40px Segoe UI;
-    letter-spacing: 0px;
-    color: #707070;
-    opacity: 1;
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 45.5%;
 }
-.imagenes
+
+.EnlaceRuta3
 {
-    top: 615px;
-    left: 303px;
-    width: 313px;
-    height: 294px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 57.5%;
 }
-.pie_De_Pagina
+.logo
 {
-    top: 1805px;
-    left: 0px;
-    width: 1920px;
-    height: 130px;
-    background: #0098DB 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.pie_De_Texto
-{
-    top: 1850px;
-    left: 197px;
-    width: 219px;
-    height: 40px;
-    text-align: left;
-    font: normal normal bold 30px/40px Segoe UI;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-}
-.pie_De_Logo
-{
-    top: 1831px;
-    left: 1395px;
-    width: 68px;
-    height: 69px;
-    background: transparent url('img/facebook.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    position: relative;
+    top: 10%;
+    float: left;
+    height: 50%;
+    bottom: 10%;
+    left: 18.5%;
+    
 }
