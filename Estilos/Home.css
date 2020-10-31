@@ -20,6 +20,14 @@ Index
     z-index: 1;
 }
 
+.FlexInformacion
+{
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: DodgerBlue;
+*/}
+
+
 .Contenido
 {
 
@@ -32,7 +40,11 @@ Index
     height: 106.125em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+    /*Caja principal*/
+
 }
+
+
 
 .Pie
 {
@@ -113,4 +125,116 @@ h1
     font-size: 2em;
     bottom: 10%;
     left: 57.5%;
+}
+
+.Logo
+{
+    position: relative;
+    top: 12%;
+    float: left;
+    height: 40%;
+    bottom: 10%;
+    left: 10%;
+}
+
+/*Informacion principal de la pagina
+
+width: 38em;
+width: 38em;
+margin: 7em;
+*/
+.CuadroDeInformacion
+{
+    
+
+    position: relative;
+    height: 48em;
+    
+}
+
+.Informacion
+{
+    position: relative;
+    top: 16em;
+    left: 4em;
+    width: 30em;
+    height: 44em;
+}
+/*font-size: 3em;*/
+h2
+{
+    position: relative;
+    
+    text-align: left;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h4
+{
+    color: #57D6F2;
+}
+
+
+.CuadroDeImagen
+{
+    flex: auto;
+    position: relative;
+    background-color: pink;
+    height: 44em;
+}
+
+.MarcoDeInformacion
+{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+/*
+<img class="ImagenDeInformacion" src="./Imagenes/Enfermera.jpg" />
+.ImagenDeInformacion
+
+<img class="MarcoDeInformacion" src="./Vectores/Recurso 6.svg"/>
+            
+{
+    position: absolute;
+    width: auto;
+    height: 48em;
+    z-index: 1;
+}
+*/
+
+
+/*Informacion con iconos*/
+
+.ContenedorIconos
+{   position: relative;
+    width: auto;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.ContenedorIconos > div
+{
+    position: relative;
+    background-color: #f1f1f1;
+    margin: 3em;
+    padding: 20px;
+}
+
+.IconosThenNoun{
+    top: 3em;
+    height: 8em;
+    bottom: 3em;
+}
+
+.InfografiaInyeccion
+{
+    top: 10em;
+    width: 10em;
+    height: 20em;
+    background-color: tomato;
 }
