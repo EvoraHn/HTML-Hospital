@@ -11,7 +11,7 @@ Index
 {
     /*Canal alfa de transpariencia*/
     width: auto;
-    height: 12.5em;
+    height: 9em;
     position: fixed;
     top: 0em;
     left: 0em;
@@ -20,12 +20,7 @@ Index
     z-index: 1;
 }
 
-.FlexInformacion
-{
-    display: flex;
-    flex-wrap: wrap;
-    /*background-color: DodgerBlue;
-*/}
+
 
 
 .Contenido
@@ -33,11 +28,11 @@ Index
 
     position: absolute;
     
-    top: 12.5em;
+    top: 9em;
     left: 10%;
     right: 10%;
     width: 80%;
-    height: 150em;
+    height: 180em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     /*Caja principal*/
@@ -53,7 +48,7 @@ Index
     height: 8.125em;
     
     /*Canal alfa de transpariencia*/
-    top: 162.5em;
+    top: 189em;
     left: 0em;
     right: 0em;
     
@@ -67,7 +62,7 @@ h1
 {
     position: relative;
     right: 10%;
-    font-size: 3em;
+    font-size: 2em;
     text-align: right;
     font-family: Verdana, Arial;
     color: #FFFFFF;
@@ -79,9 +74,10 @@ h1
 
     
     position: relative;
-    height: 3em;
+    height: 2em;
     width: auto;
     top: 1em;
+    bottom: 1em;
     background: #FFFFFF;
 }
 
@@ -91,9 +87,9 @@ h1
     font-family: Verdana, Arial;
     top: 10%;
     float: left;
-    height: 2em;
+    height: 1.5em;
     bottom: 10%;
-    left: 15%;
+    left: 20%;
     
 }
 
@@ -101,30 +97,27 @@ h1
 {
     position: relative;
     font-family: Verdana, Arial;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 30%;
+    top: 0.4em;
+    font-size: 1em;
+    left: 35%;
 }
 
 .EnlaceRutaServicios
 {
     position: relative;
     font-family: Verdana, Arial;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 45%;
+    top: 0.4em;
+    font-size: 1em;
+    left: 50%;
 }
 
 .EnlaceRutaContactanos
 {
     position: relative;
     font-family: Verdana, Arial;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 57.5%;
+    top: 0.4em;
+    font-size: 1em;
+    left: 60%;
 }
 
 .Logo
@@ -143,20 +136,57 @@ width: 38em;
 width: 38em;
 margin: 7em;
 */
+.FlexInformacion
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 36em;
+}
+
 .CuadroDeInformacion
 {
     
-
+    flex: 1;
     position: relative;
     height: 48em;
     
 }
 
+
+.CuadroDeImagen
+{
+    flex: 1;
+    position: relative;
+    width: auto;
+    height: auto;
+    height: 35em;
+    
+}
+
+.Contenido .CuadroDeImagen
+{
+    background-image: url('../Imagenes/Enfermera.jpg');
+    background-size: 100%, 100%;
+
+}
+
+
+.MarcoDeInformacion
+{
+    position: relative;
+    flex: 1;
+    width: auto;
+    height: 36em;
+    left: 0%;
+    top: 0%;
+}
+
+
 .Informacion
 {
     position: relative;
     top: 16em;
-    left: 4em;
+    left: 8em;
     width: 30em;
     height: 44em;
 }
@@ -172,24 +202,10 @@ h2
 }
 h4
 {
+    font-family: Verdana, Arial;
     color: #57D6F2;
 }
 
-
-.CuadroDeImagen
-{
-    flex: auto;
-    position: relative;
-    background-color: pink;
-    height: 44em;
-}
-
-.MarcoDeInformacion
-{
-    position: relative;
-    width: auto;
-    height: auto;
-}
 
 /*
 <img class="ImagenDeInformacion" src="./Imagenes/Enfermera.jpg" />
@@ -209,43 +225,46 @@ h4
 /*Informacion con iconos*/
 
 .ContenedorIconos
-{   position: relative;
+{   
+    top: 10em;
+    position: relative;
     width: auto;
     height: 30em;
     display: flex;
     justify-content: center;
-    background-color: yellow;
+    
 }
 
 .ContenedorIconos > div
 {
     position: relative;
     background-color: #f1f1f1;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: -20px 20px 60px #d9d9d9, 
+            20px -20px 60px #ffffff;
+    
     margin: 3em;
-    padding: 20px;
+    padding: 1em;
     width: 10em;
 }
 
 .IconosThenNoun{
     position: relative;
-    top: 3em;
-    height: 8em;
+    top: 1em;
+    height: 9em;
     bottom: 3em;
+    left: 0.6em;
 }
 
-.InfografiaInyeccion
+div p
 {
-    position: relative;
-    top: 10em;
-    width: 10em;
-    height: 20em;
-    background-color: tomato;
+    color: #049dd9;
 }
-
 
 .TextoDeInfografia
 {
-    background-color: rosybrown;
+    
     position: relative;
     width: auto;
     height: auto;
@@ -261,25 +280,28 @@ h4
 
 .ContenedorDeAnuncio
 {
-    top: 3em;
+    top: 20em;
     position: relative;
     width: auto;
     height: 30em;
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color:white;
 }
 
 .ContenedorDeImagen
 {
     position: relative;
-    top: 1em;
-    width: 70%;
-    height: 70%;
-    left: 15%;
+    top: 3em;
+    width: 50%;
+    height: 90%;
+    left: 25%;
     bottom: 1em;
-    border-color: saddlebrown;
-    border-style: solid;
+    background: linear-gradient(145deg, #56e6e6, #ffffff);
+    box-shadow:  20px 20px 60px #575757, 
+            -20px -20px 60px #cacaca;
+    bottom: 2em;
+
 }
 
 .ImagenDeAnuncio
@@ -298,23 +320,25 @@ h4
     font-weight: bold;
     text-transform: uppercase;
     left: 15%;
+    width: 5em;
     font-size: 3em;
+    color: #049dd9;
 }
 
-.ContenedorDelAnuncio
+.ContenidoDelAnuncio
 {
     
     position: relative;
     text-align: right;
     font-family: Verdana, Arial;
     right: 15%;
-    top: 7%;
+    top: 5em;
 }
 
 /* Slide*/
 .ContenedorDeSlide
 {
-    top: 7em;
+    top: 40em;
     position: relative;
     width: auto;
     height: 30em;
