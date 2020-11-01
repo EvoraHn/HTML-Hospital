@@ -1,5 +1,5 @@
 
-
+@import url(./info.css);
 .Encabezado
 {
     
@@ -9,13 +9,12 @@
     top: 0em;
     left: 0em;
     right: 0em;
+    font-family: Verdana, Arial;
     background-color: #049dd9;
-    opacity: 1;
+    z-index: 1;
 }
-
 .Contenedor
 {
-    opacity: 0.99;
     background-color: rgb(207, 235,247);
     
 }
@@ -23,30 +22,37 @@
 .Contenido
 {
 
-    
+    position: absolute;
     top: 12.5em;
     left: 10%;
     right: 10%;
     width: 80%;
+    font-family: Verdana, Arial;
     height: 106.125em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    position: absolute;
+    opacity: 1;
 }
 
 .Pie
 {
-    
     width: auto;
     height: 8.125em;
-    
     top: 118.625em;
     left: 0em;
     right: 0em;
-    
+    font-family: Verdana, Arial;
     position: absolute;
     background-color:  #049dd9;
 }
-
+section h1
+{
+    position: relative;
+    left: 10%;
+    text-align: left;
+    font: normal normal normal 60px/80px Segoe UI;
+    color:black;
+    text-transform: uppercase;
+}
 
 h1
 {
@@ -54,7 +60,17 @@ h1
     right: 10%;
     text-align: right;
     font: normal normal normal 60px/80px Segoe UI;
-    color: #FFFFFF;
+    color:white;
+    text-transform: uppercase;
+}
+
+h2
+{
+    position: absolute;
+    right: 60%;
+    text-align: left;
+    font: normal normal normal 60px/80px Segoe UI;
+    color:black;
     text-transform: uppercase;
 }
 
