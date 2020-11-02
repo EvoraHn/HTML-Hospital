@@ -138,28 +138,42 @@ margin: 7em;
 */
 .FlexInformacion
 {
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+
     height: 36em;
 }
 
-.CuadroDeInformacion
+
+.Informacion
 {
-    
-    flex: 1;
     position: relative;
-    height: 48em;
-    
+    flex: 1;
+
+    top: 16em;
+    left: 8em;
+    width: 30em;
+    height: 16em;
 }
 
+.MarcoDeInformacion
+{
+    position: relative;
+    flex:1;
+    top: 0%;
+    background-image: url('../Vectores/Recurso\ 6.svg');
+    height: 36em;
+    background-repeat: no-repeat;
+    
+    
+}
 
 .CuadroDeImagen
 {
     flex: 1;
     position: relative;
-    width: auto;
-    height: auto;
-    height: 35em;
+    width: 10em;
+    height: 36em;
     
 }
 
@@ -167,29 +181,12 @@ margin: 7em;
 {
     background-image: url('../Imagenes/Enfermera.jpg');
     background-size: 100%, 100%;
-
+    background-repeat: no-repeat;
 }
 
 
-.MarcoDeInformacion
-{
-    position: relative;
-    flex: 1;
-    width: auto;
-    height: 36em;
-    left: 0%;
-    top: 0%;
-}
 
 
-.Informacion
-{
-    position: relative;
-    top: 16em;
-    left: 8em;
-    width: 30em;
-    height: 44em;
-}
 /*font-size: 3em;*/
 h2
 {
@@ -226,19 +223,26 @@ h4
 
 .ContenedorIconos
 {   
+    
     top: 10em;
     position: relative;
     width: auto;
     height: 30em;
+    /*
+    background-color: crimson;
+    */
     display: flex;
+    
     justify-content: center;
     
 }
 
 .ContenedorIconos > div
+/*Seleccion de elementos hijo*/
 {
     position: relative;
-    background-color: #f1f1f1;
+    flex: 1;
+    
     border-radius: 50px;
     background: #ffffff;
     box-shadow: -20px 20px 60px #d9d9d9, 
@@ -247,6 +251,8 @@ h4
     margin: 3em;
     padding: 1em;
     width: 10em;
+    
+
 }
 
 .IconosThenNoun{
