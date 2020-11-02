@@ -1,0 +1,183 @@
+.Contenedor
+{
+    background-color: rgb(207, 235,247);
+}
+
+h1
+{
+    position: relative;
+    right: 10%;
+    font-size: 2em;
+    text-align: right;
+    font-family: Verdana, Arial;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.bandaBlanca
+{
+    position: relative;
+    height: 2em;
+    width: auto;
+    top: 1em;
+    bottom: 1em;
+    background: #FFFFFF;
+}
+
+.Encabezado
+{
+    width: auto;
+    height: 9em;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: #049dd9;
+    z-index: 1;
+}
+
+.Contenido
+{
+    position: absolute;
+    top: 9em;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 106.125em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.PiePagina
+{
+    width: auto;
+    height: 8.125em;
+    top: 118.625em;
+    left: 0em;
+    right: 0em;
+    position: absolute;
+    background-color:  #049dd9;
+}
+
+.enlaceHouse
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 10%;
+    float: left;
+    height: 1.5em;
+    bottom: 10%;
+    left: 20%;
+}
+
+.EnlaceHistoria
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 35%;
+}
+
+.EnlaceServicios
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 50%;
+}
+
+.EnlaceContactanos
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 60%;
+}
+
+.contacto1
+{
+    display: inline-block;
+    font-family: Verdana, Arial;
+    padding: 80px 150px;
+    position: relative;
+}
+
+h2
+{
+    position: relative;
+    left: 10%;
+    font-size: 3em;
+    text-align: left;
+    font-family: Verdana, Arial;
+    color: black;
+    text-transform: uppercase;
+}
+
+#contact .card
+{
+    display: inline-table;
+    padding: 25px 10px;
+    margin-top: 30px;
+    margin-right: 0%;
+    margin-left: 120px;
+    
+    /*width: 100px;
+    font-family: Verdana, Arial;
+    padding: 80px 150px;*/
+    
+}
+
+.boton
+{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#333333;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#FFD27D;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+}
+
+#contact .card1
+{
+    display: inline-table;
+    padding: 25px 10px;
+    margin-top: 30px;
+    margin-right: 0%;
+    margin-left: 580px;
+}
+
+#foot .contFoot
+{
+    /*display: inline-table;
+    padding: 25px 10px;
+    margin-top: 30px*/
+    margin-left: 350px;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.contFoot img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.Logo
+{
+    position: relative;
+    top: 12%;
+    float: left;
+    height: 40%;
+    bottom: 10%;
+    left: 10%;
+}
