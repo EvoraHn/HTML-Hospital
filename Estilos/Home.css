@@ -108,7 +108,7 @@ h1
     font-family: Verdana, Arial;
     top: 0.4em;
     font-size: 1em;
-    left: 50%;
+    left: 48%;
 }
 
 .EnlaceRutaContactanos
@@ -385,4 +385,11 @@ div p
     flex: 1;
     width: 0.02em;
     height: 60%;
+}
+
+.Encabezado  a
+{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
 }
