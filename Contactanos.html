@@ -3,25 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactanos</title>
+    <link rel="stylesheet" href="./Estilos/contactanos.css">
+    <title>Contactanos</title>    
 </head>
-<body>
-    <h1>Contactanos</h1>
-    <form action="">
-        <p>
-            <input type="text" name="nombre" size="40" placeholder="Su nombre*" id="nombre">
-        </p>
-        <p>
-            <input type="text" name="telefono" size="40" placeholder="Teléfono de contacto (+ Cod. de país y región)*" id="telefono">
-        </p> 
-        <p>
-            <input type="text" name="email" size="40" placeholder="Email*" id="email">
-        </p>
-        <p>
-            <textarea type="text" name="mensaje" cols="42" rows="5" placeholder="Su mensaje*" id="mensaje"></textarea>
-        </p>
-    </form>
-    
+<body class="Contenedor">
+ 
+    <div class="Encabezado">
+        <img class="Logo" src="./Vectores/VectorLogoBlanco.svg"/>
+        <h1>Centro medico band aids</h1>
 
+        <div class="bandaBlanca">
+
+            <img class="enlaceHouse"  src="./Vectores/casa-silueta-negra-sin-puerta.svg">
+            
+            
+            <span class="EnlaceHistoria"> Historia </span>
+            <span class="EnlaceServicios"> Servicios </span>
+            <span class="EnlaceContactanos"> Contacto </span>
+        </div>
+    </div>
+
+    <div class="Contenido" >
+        <h2>Contactanos</h2>
+        <div id="contact">
+            <div class="card">
+                <p>
+                    <input type="text" name="nombre"  style="height: 50px; width: 310px;" placeholder="Su nombre*" id="nombre">
+                </p>
+                <p>
+                    <input type="text" name="telefono" style="height: 50px; width: 310px;" placeholder="Teléfono de contacto (+ Cod. de país y región)*" id="telefono">
+                </p> 
+                <p>
+                    <input type="text" name="email" style="height: 50px; width: 310px;" placeholder="Email*" id="email">
+                </p>
+                <p>
+                    <textarea type="text" name="mensaje" cols="42" rows="10" placeholder="Su mensaje*" id="mensaje"></textarea>
+                </p>
+            </div>
+
+            <div class="card">
+                <strong>HONDURAS</strong>
+                <p>Band Aids</p> 
+                <p>+504 2215-20-45</p> 
+                <p>Calle San Juan, edificio planta baja</p>
+                <p>Oficina 2</p>
+                <p>Tegucigalpa</p>
+                <br>
+                <strong>MÉXICO</strong>
+                <p>Working Solutions</p> 
+                <p>www.workingsolutions.mx</p>
+                <p>+52 1 55 1953 8371</p>
+                <p>Circuito Valle de la Luna 4-36, Fracc Zibatá El Marques, Querétaro 76269 México</p>
+            </div>
+
+            <div id="contact">
+                <div class="card">
+                    <h4>Datos de su clinica</h4>
+                    <p>
+                        <input type="text" name="clinica"  style="height: 50px; width: 310px;" placeholder="Nombre de su clinica*" id="clinica">
+                    </p>
+                    <p>
+                        <select name="tipo" id="tipo" style="height: 50px; width: 319px;">
+                            <option value="Indique el tipo de clinica">Indique el tipo de clínica</option>
+                            <option value="Bienestar">Bienestar</option>
+                            <option value="Cirugia">Cirugía</option>
+                            <option value="Estetica">Estética</option>
+                            <option value="Fisioterapia">Fisioterapia</option>
+                            <option value="Geriatría">Geriatría</option>
+                            <option value="Ginecología">Ginecología</option>
+                            <option value="Kinesiología">Kinesiología</option>
+                            <option value="Logopedia">Logopedia</option>
+                            <option value="Medicina">Medicina</option>
+                            <option value="Medicina natural">Meicina natural</option>
+                            <option value="Nutricion">Nutrición</option>
+                            <option value="Odontología">Odontología</option>
+                            <option value="Ortopedia">Ortopedia</option>
+                            <option value="Osteopatia">Osteopatia</option>
+                            <option value="Otorrinolaringología">Otorrinolaringología</option>
+                            <option value="Pediatría">Pediatría</option>
+                            <option value="Pilates">Pilates</option>                            
+                            <option value="Podología">Podología</option>
+                            <option value="Policlinica">Policlinica</option>
+                            <option value="Psicologia">Psicologia</option>
+                            <option value="Psicoterapía">Psicoterapía</option>
+                            <option value="Psiquiatría">Psiquiatría</option>
+                            <option value="Rehabilitación">Rehabilitación</option>
+                        </select>
+                    </p>
+                    <p>
+                        <select name="pais" id="pais" style="height: 50px; width: 319px;">
+                            <option value="Honduras">Honduras</option>
+                            <option value="España">España</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="EEUU">EEUU</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Ecuador">Ecuador</option>
+                        </select>
+                    </p>
+                    <p>*Campos obligatorios</p>
+                    <input type="button" class="boton" value="Enviar">
+                </div>
+
+                <div class="card">
+                    <strong>ECUADOR</strong> 
+                    <p>CONTACT BUSINESS SOLUTIONS</p> 
+                    <p>www.cbs-ec.com</p>   
+                    <p>+(593) 17 00 227 000​</p> 
+                    <p>info@cbs-ec.com​ info@cbs-ec.com​</p>
+                    <p>ecuador@clinic-cloud.com</p>
+                    <p>Manuel Ignacio Valdiviezo N57- 99</p>
+                    <p>Nicolás Joaquín Edificio Milena Piso 2 Oficina O-2​</p>
+                </div>
+            </div>
+            
+            <div id="contact">
+                <div class="card1">
+                    <strong>CHILE</strong> 
+                    <p>QUINTAVIA</p>
+                    <p>+562 2 26 40 865 / +562 2 2649 685​</p>
+                    <p>soporte@cliniccloud.cl</p>
+                    <p>chile@clinic-cloud.com</p>
+                    <p>Avda. Providencia 1308, Quinto Piso Oficina 2-B​ Providencia​ Región Metropolitana</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="PiePagina">
+            <div id="foot">
+                
+                <div class="contFoot">
+                    <img src="./Redes sociales/Facebook.png">
+                </div>
+                
+                <div class="contFoot">
+                    <img src="./Redes sociales/twitter.png">
+                </div>
+                
+                <div class="contFoot">
+                    <img src="./Redes sociales/instagram.png">
+                </div>
+            
+            </div>
+        
+    </div>
 </body>
 </html>
