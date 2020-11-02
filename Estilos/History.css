@@ -1,0 +1,204 @@
+.Contenedor
+{
+    background-color: rgb(207, 235,247);
+}
+
+.Encabezado
+{
+    /*Canal alfa de transpariencia*/
+    width: auto;
+    height: 12.5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: #049dd9;
+}
+
+.Contenido
+{
+
+    position: absolute;
+    
+    top: 12.5em;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 120em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Pie
+{
+    
+    width: auto;
+    height: 8.125em;
+    
+    /*Canal alfa de transpariencia*/
+    top: 130em;
+    left: 0em;
+    right: 0em;
+    
+    position: absolute;
+    background-color:  #049dd9;
+}
+
+/*! Encabezados*/
+/*Titulo*/
+h1
+{
+    position: relative;
+    right: 10%;
+    text-align: right;
+    font: normal normal normal 60px/80px Segoe UI;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+/*Banda blanca con lista de directorios*/
+.BandaBlanca
+{
+    position: relative;
+    height: 3em;
+    width: auto;
+    bottom: 1.5em;
+    background: #FFFFFF;
+}
+
+.EnlaceRutaHouse
+{
+    position: relative;
+    top: 10%;
+    float: left;
+    height: 80%;
+    bottom: 10%;
+    left: 22.5%;
+    
+}
+
+.EnlaceRutaHistoria
+{
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 32.5%;
+}
+
+.EnlaceRutaServicios
+{
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 45.5%;
+}
+
+.EnlaceRutaContactanos
+{
+    position: relative;
+    top: 10%;
+    font-size: 2em;
+    bottom: 10%;
+    left: 57.5%;
+}
+
+.h2
+{
+    font: normal normal normal 60px/80px Segoe UI;
+    color: #707070;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+}
+.divtitulo
+{
+    margin-left: 5%;
+    position: relative;
+    font: normal normal normal 60px/80px Segoe UI;
+
+}
+
+.divPrincipal
+{
+    width: auto;
+    height: 70em;
+    position: relative;
+}
+.divImagenHistoria
+{
+    width: 25em;
+    height: 25em;
+    margin-right: 4em;
+    display: flex;
+    float: right;
+    display: flex;
+    margin-top: 6em;
+}
+.imagen
+{
+    width: 25em;
+    height: 25em;
+}
+.divParrafo
+{
+    width: 40em;
+    height: 50em;
+    /*margin-left: 4em;*/
+    display: flex;
+    float: left;
+    margin-left: 4em;
+    
+}
+.parrafo{
+    font-family: sans-serif;
+    font-size: medium;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
+
+.parrafoV{
+    font-family: sans-serif;
+    font-size: medium;
+    line-height: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+.divParrafoV
+{
+    width: auto;
+    height: 25em;
+    position: absolute;
+    
+    top: 80em;
+    
+}
+
+.divVal
+{
+    width: auto;
+    height: 45em;
+    position: relative;
+    background-image: url('../Imagenes/fondo\ pagina\ hospital.jpg');
+    background-size: cover;
+    opacity: 0.4;
+}
+h3{
+    font-size: 4em;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+
+
