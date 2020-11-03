@@ -108,7 +108,7 @@ h1
     font-family: Verdana, Arial;
     top: 0.4em;
     font-size: 1em;
-    left: 50%;
+    left: 48%;
 }
 
 .EnlaceRutaContactanos
@@ -353,3 +353,43 @@ div p
     background-color: yellow;
 }
 
+/*Redes sociales*/
+.RedesSociales
+{
+    position: relative;
+    
+    display: flex;
+    top: 2em;
+    height: 4em;
+    left: 10%;
+    width: 80%;
+    bottom: 2em;
+    flex-direction: row;
+}
+
+.Creadores
+{
+    position: relative;
+    top: 1.5em;
+    flex: 25;
+    font-family: Verdana, Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.RedesSociales >img
+{
+    margin: 1em;
+    position: relative;
+    top: -0.6em;
+    flex: 1;
+    width: 0.02em;
+    height: 60%;
+}
+
+.Encabezado  a
+{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
+}
