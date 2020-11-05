@@ -2,16 +2,16 @@
 @import url(./info.css);
 .Encabezado
 {
-    
-    width: auto;
-    height: 12.5em;
-    position: fixed;
-    top: 0em;
-    left: 0em;
-    right: 0em;
-    font-family: Verdana, Arial;
-    background-color: #049dd9;
-    z-index: 1;
+     /*Canal alfa de transpariencia*/
+     width: auto;
+     height: 9em;
+     position: fixed;
+     top: 0em;
+     left: 0em;
+     right: 0em;
+     background-color: #049dd9;
+     z-index: 1;
+ 
 }
 .Contenedor
 {
@@ -58,9 +58,10 @@ h1
 {
     position: relative;
     right: 10%;
+    font-size: 2em;
     text-align: right;
-    font: normal normal normal 60px/80px Segoe UI;
-    color:white;
+    font-family: Verdana, Arial;
+    color: #FFFFFF;
     text-transform: uppercase;
 }
 
@@ -76,10 +77,12 @@ h2
 
 .BandaBlanca
 {
+     
     position: relative;
-    height: 3em;
+    height: 2em;
     width: auto;
-    bottom: 1.5em;
+    top: 1em;
+    bottom: 1em;
     background: #FFFFFF;
 }
 
