@@ -36,6 +36,13 @@ h1
     z-index: 1;
 }
 
+.Encabezado  a
+{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .Contenido
 {
     position: absolute;
@@ -85,7 +92,7 @@ h1
     font-family: Verdana, Arial;
     top: 0.4em;
     font-size: 1em;
-    left: 50%;
+    left: 48%;
 }
 
 .EnlaceContactanos
