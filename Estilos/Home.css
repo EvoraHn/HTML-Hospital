@@ -341,17 +341,7 @@ div p
     top: 5em;
 }
 
-/* Slide*/
-.ContenedorDeSlide
-{
-    top: 40em;
-    position: relative;
-    width: auto;
-    height: 30em;
-    display: flex;
-    flex-direction: column;
-    background-color: yellow;
-}
+
 
 /*Redes sociales*/
 .RedesSociales
@@ -392,4 +382,54 @@ div p
     color: #000000; 
     font-weight: bold;
     text-decoration: none;
+}
+/* Slide*/
+.ContenedorDeSlide
+{
+    top: 40em;
+    position: relative;
+    width: auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+/*Resourc*/
+.slider {
+    top: 10em;
+    position: relative;
+	width: 95%;
+	margin: auto;
+    overflow: hidden;
+    height: 29em;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
 }
