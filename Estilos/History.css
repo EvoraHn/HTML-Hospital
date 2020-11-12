@@ -1,3 +1,7 @@
+/*
+Index
+*/
+/*?Estructura*/
 .Contenedor
 {
     background-color: rgb(207, 235,247);
@@ -7,27 +11,35 @@
 {
     /*Canal alfa de transpariencia*/
     width: auto;
-    height: 12.5em;
-    position: absolute;
+    height: 9em;
+    position: fixed;
     top: 0em;
     left: 0em;
     right: 0em;
     background-color: #049dd9;
+    z-index: 1;
 }
+
+
+
 
 .Contenido
 {
 
     position: absolute;
     
-    top: 12.5em;
+    top: 9em;
     left: 10%;
     right: 10%;
     width: 80%;
-    height: 120em;
+    height: 119.6em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+    /*Caja principal*/
+
 }
+
+
 
 .Pie
 {
@@ -36,7 +48,7 @@
     height: 8.125em;
     
     /*Canal alfa de transpariencia*/
-    top: 130em;
+    top: 128em;
     left: 0em;
     right: 0em;
     
@@ -50,58 +62,74 @@ h1
 {
     position: relative;
     right: 10%;
+    font-size: 2em;
     text-align: right;
-    font: normal normal normal 60px/80px Segoe UI;
+    font-family: Verdana, Arial;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 /*Banda blanca con lista de directorios*/
 .BandaBlanca
 {
+
+    
     position: relative;
-    height: 3em;
+    height: 2em;
     width: auto;
-    bottom: 1.5em;
+    top: 1em;
+    bottom: 1em;
     background: #FFFFFF;
 }
 
 .EnlaceRutaHouse
 {
     position: relative;
+    font-family: Verdana, Arial;
     top: 10%;
     float: left;
-    height: 80%;
+    height: 1.5em;
     bottom: 10%;
-    left: 22.5%;
+    left: 20%;
     
 }
 
 .EnlaceRutaHistoria
 {
     position: relative;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 32.5%;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 35%;
 }
 
 .EnlaceRutaServicios
 {
     position: relative;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 45.5%;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 48%;
 }
 
 .EnlaceRutaContactanos
 {
     position: relative;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 57.5%;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 60%;
 }
+
+.Logo
+{
+    position: relative;
+    top: 12%;
+    float: left;
+    height: 40%;
+    bottom: 10%;
+    left: 10%;
+}
+
 
 .h2
 {
@@ -151,7 +179,7 @@ h1
     
 }
 .parrafo{
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     line-height: 1.5em;
     text-align: justify;
@@ -160,7 +188,7 @@ h1
 
 
 .parrafoV{
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     line-height: 1.5em;
     color: black;
@@ -202,3 +230,42 @@ h3{
 
 
 
+.RedesSociales
+{
+    position: relative;
+    
+    display: flex;
+    top: 2em;
+    height: 4em;
+    left: 10%;
+    width: 80%;
+    bottom: 2em;
+    flex-direction: row;
+}
+
+.Creadores
+{
+    position: relative;
+    top: 1.5em;
+    flex: 25;
+    font-family: Verdana, Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.RedesSociales >img
+{
+    margin: 1em;
+    position: relative;
+    top: -0.6em;
+    flex: 1;
+    width: 0.02em;
+    height: 60%;
+}
+
+.Encabezado  a
+{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
+}
