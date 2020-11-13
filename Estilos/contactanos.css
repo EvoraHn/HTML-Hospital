@@ -40,6 +40,7 @@ h1
 {
     color: #000000; 
     font-weight: bold;
+    font-family: Verdana, Arial;
     text-decoration: none;
 }
 
@@ -130,7 +131,7 @@ h2
     margin-top: 30px;
     margin-right: 0%;
     margin-left: 120px;
-    
+    font-family: Verdana, Arial;
     /*width: 100px;
     font-family: Verdana, Arial;
     padding: 80px 150px;*/
@@ -161,6 +162,7 @@ h2
     margin-top: 30px;
     margin-right: 0%;
     margin-left: 580px;
+    font-family: Verdana, Arial;
 }
 
 .RedesSociales
@@ -185,6 +187,7 @@ h2
     text-transform: uppercase;
     font-weight: bold;
 }
+
 
 .RedesSociales >img
 {
