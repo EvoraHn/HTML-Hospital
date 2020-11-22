@@ -10,7 +10,6 @@ Index
 
 .Encabezado
 {
-    /*Canal alfa de transpariencia*/
     width: auto;
     height: 9em;
     position: fixed;
@@ -26,7 +25,6 @@ Index
 
 .Contenido
 {
-
     position: absolute;
     top: 9em;
     left: 10%;
@@ -35,23 +33,17 @@ Index
     height: 180em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
-    /*Caja principal*/
-
 }
 
 
 
 .Pie
 {
-    
     width: auto;
     height: 8.125em;
-    
-    /*Canal alfa de transpariencia*/
     top: 189em;
     left: 0em;
-    right: 0em;
-    
+    right: 0em;   
     position: absolute;
     background-color:  #049dd9;
 }
@@ -140,7 +132,6 @@ margin: 7em;
 {
     position: relative;
     display: flex;
-
     height: 36em;
 }
 
@@ -149,7 +140,6 @@ margin: 7em;
 {
     position: relative;
     flex: 1;
-
     top: 16em;
     left: 8em;
     width: 30em;
@@ -164,9 +154,8 @@ margin: 7em;
     background-image: url('../Vectores/Recurso\ 6.svg');
     height: 36em;
     background-repeat: no-repeat;
-    
-    
 }
+
 
 .CuadroDeImagen
 {
@@ -174,7 +163,6 @@ margin: 7em;
     position: relative;
     width: 10em;
     height: 36em;
-    
 }
 
 .Contenido .CuadroDeImagen
@@ -204,55 +192,33 @@ h4
 }
 
 
-/*
-<img class="ImagenDeInformacion" src="./Imagenes/Enfermera.jpg" />
-.ImagenDeInformacion
-
-<img class="MarcoDeInformacion" src="./Vectores/Recurso 6.svg"/>
-            
-{
-    position: absolute;
-    width: auto;
-    height: 48em;
-    z-index: 1;
-}
-*/
-
 
 /*Informacion con iconos*/
 
 .ContenedorIconos
-{   
-    
+{
     top: 10em;
     position: relative;
     width: auto;
     height: 30em;
-    /*
-    background-color: crimson;
-    */
     display: flex;
-    
     justify-content: center;
-    
 }
+
+
 
 .ContenedorIconos > div
 /*Seleccion de elementos hijo*/
 {
     position: relative;
     flex: 1;
-    
     border-radius: 50px;
     background: #ffffff;
     box-shadow: -20px 20px 60px #d9d9d9, 
             20px -20px 60px #ffffff;
-    
     margin: 3em;
     padding: 1em;
     width: 10em;
-    
-
 }
 
 .IconosThenNoun{
@@ -274,7 +240,6 @@ div p
     position: relative;
     width: auto;
     height: auto;
-
     top: 2em;
     bottom: auto;
     width: 100%;
@@ -304,10 +269,9 @@ div p
     left: 25%;
     bottom: 1em;
     background: linear-gradient(145deg, #56e6e6, #ffffff);
-    box-shadow:  20px 20px 60px #575757, 
-            -20px -20px 60px #cacaca;
+    box-shadow: 20px 20px 60px #575757, 
+                -20px -20px 60px #cacaca;
     bottom: 2em;
-
 }
 
 .ImagenDeAnuncio
@@ -347,7 +311,6 @@ div p
 .RedesSociales
 {
     position: relative;
-    
     display: flex;
     top: 2em;
     height: 4em;
