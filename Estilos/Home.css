@@ -10,8 +10,8 @@ Index
 
 .Encabezado
 {
-    width: auto;
-    height: 9em;
+    width: 100vw;
+    height: 18vh;
     position: fixed;
     top: 0em;
     left: 0em;
@@ -26,11 +26,11 @@ Index
 .Contenido
 {
     position: absolute;
-    top: 9em;
+    top: 18vh;
     left: 10%;
     right: 10%;
     width: 80%;
-    height: 180em;
+    height: 420vh;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -40,8 +40,8 @@ Index
 .Pie
 {
     width: auto;
-    height: 8.125em;
-    top: 189em;
+    height: 8.125vh;
+    bottom: -240vh;
     left: 0em;
     right: 0em;   
     position: absolute;
@@ -54,7 +54,7 @@ h1
 {
     position: relative;
     right: 10%;
-    font-size: 2em;
+    font-size: 4vh;
     text-align: right;
     font-family: Verdana, Arial;
     color: #FFFFFF;
@@ -66,50 +66,54 @@ h1
 
     
     position: relative;
-    height: 2em;
-    width: auto;
-    top: 1em;
-    bottom: 1em;
+    height: 4vh;
+    width: 100vw;
+    top: 1vh;
+    bottom: 0.7vh;
     background: #FFFFFF;
 }
 
 .EnlaceRutaHouse
 {
+    font-size: 2vh;
     position: relative;
     font-family: Verdana, Arial;
-    top: 10%;
+    top: 0.7vh;
     float: left;
     height: 1.5em;
     bottom: 10%;
-    left: 20%;
+    left: 20vw;
     
 }
 
 .EnlaceRutaHistoria
 {
+    font-size: 2vh;
     position: relative;
     font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 1em;
-    left: 35%;
+    top: 0.7vh;
+    float: left;
+    left: 35vw;
 }
 
 .EnlaceRutaServicios
 {
     position: relative;
     font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 1em;
-    left: 48%;
+    top: 0.7vh;
+    font-size: 2vh;
+    left: 48vw;
+    float: left;
 }
 
 .EnlaceRutaContactanos
 {
     position: relative;
     font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 1em;
-    left: 60%;
+    top: 0.7vh;
+    font-size: 2vh;
+    left: 60vw;
+    float: left;
 }
 
 .Logo
@@ -117,7 +121,7 @@ h1
     position: relative;
     top: 12%;
     float: left;
-    height: 40%;
+    height: 6vh;
     bottom: 10%;
     left: 10%;
 }
@@ -141,7 +145,7 @@ margin: 7em;
     position: relative;
     flex: 1;
     top: 16em;
-    left: 8em;
+    left: 8vw;
     width: 30em;
     height: 16em;
 }
@@ -200,9 +204,11 @@ h4
     top: 10em;
     position: relative;
     width: auto;
-    height: 30em;
+    height: 50vh;
     display: flex;
     justify-content: center;
+    background-color: pink;
+   
 }
 
 
@@ -211,27 +217,34 @@ h4
 /*Seleccion de elementos hijo*/
 {
     position: relative;
-    flex: 1;
-    border-radius: 50px;
+    display: flex;
+    border-radius: 5vh;
     background: #ffffff;
-    box-shadow: -20px 20px 60px #d9d9d9, 
-            20px -20px 60px #ffffff;
-    margin: 3em;
-    padding: 1em;
-    width: 10em;
+    box-shadow: -2.50vh 2.50vh 7.50vh #d9d9d9, 
+    2.50vh -2.50vh 7.50vh #ffffff;
+    
+    padding: 4vw;
+    width: 10vw;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .IconosThenNoun{
+  
     position: relative;
-    top: 1em;
-    height: 9em;
-    bottom: 3em;
-    left: 0.6em;
+    
+    width: 10vw;
+    height: 20vh;
+    
+
 }
 
 div p
 {
     color: #049dd9;
+    position: relative;
+    font-size: 2vh;
 }
 
 .TextoDeInfografia
@@ -358,12 +371,13 @@ div p
 }
 /*Resourc*/
 .slider {
-    top: 10em;
+    top: 10vh;
     position: relative;
 	width: 95%;
 	margin: auto;
     overflow: hidden;
-    height: 29em;
+    height: 29vh;
+    background-color: pink;
 }
 
 .slider ul {
