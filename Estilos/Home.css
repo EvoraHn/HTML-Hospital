@@ -29,16 +29,9 @@ Index
 
 .Contenido
 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 18vh;
-    left: 10%;
-    right: 10%;
     width: 80vw;
     height:auto;
-    background: white;
-    opacity: 1;
+    background-color: #FFFFFF; 
 }
 
 
@@ -46,17 +39,17 @@ Index
 .Pie
 {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 9vh;
-    position:fixed;
-    bottom: 0em;
+    top: 0em;
     left: 0em;
     right: 0em;
-    background-color: #049dd9;
-    z-index: 0;
+
     flex-wrap: wrap ;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #049dd9;
+   
 }
 /*! Encabezados*/
 /*Titulo*/
@@ -152,7 +145,8 @@ margin: 7em;
 {
     position: relative;
     display: flex;
-    height: 36em;
+    flex:1;
+    top: 18vh;
 }
 
 
@@ -160,10 +154,10 @@ margin: 7em;
 {
     position: relative;
     flex: 1;
-    top: 16em;
-    left: 8vw;
-    width: 30em;
-    height: 16em;
+    
+    justify-content: flex-end;
+    padding: 1vw;
+    
 }
 
 .MarcoDeInformacion
@@ -199,7 +193,7 @@ margin: 7em;
 h2
 {
     position: relative;
-    
+    font-size: 4vw;
     text-align: left;
     font-family: Verdana, Arial;
     font-weight: bold;
@@ -209,6 +203,7 @@ h4
 {
     font-family: Verdana, Arial;
     color: #57D6F2;
+    font-size: 2vw;
 }
 
 
@@ -267,34 +262,30 @@ h4
 
 .ContenedorDeAnuncio
 {
-    top: 10vh;
+    top: 6vh;
     position: relative;
     width: auto;
-    height: 55vh;
+    height:auto;
     display: flex;
     flex-direction: column;
-
+   background-color: #ffffff;
+   padding-bottom: 7VW;;
+   align-items: center;
 
 }
 
 .ContenedorDeImagen
 {
-    position: relative;
-    top: 3vh;
-    width: 50vw;
-    height: 40vh;
-    left: 25%;
-    background: linear-gradient(145deg, #56e6e6, #ffffff);
-    box-shadow: 20px 20px 60px #575757, 
-                -20px -20px 60px #cacaca;
-   
+    margin: 2vw;
+    top: 3vh;               
+    width: 40%;
 }
 
 .ImagenDeAnuncio
 {
     position: relative;
     width: 100%;
-    height: 40vh;
+    height: 100%;
 }
 
 .EncabezadoAnuncio
@@ -305,20 +296,14 @@ h4
     font-family: Verdana, Arial;
     font-weight: bold;
     text-transform: uppercase;
-    left: 15%;
-    width: 5em;
     font-size: 5vh;
     color: #049dd9;
 }
 
 .ContenidoDelAnuncio
 {
-    
-    position: relative;
     text-align: right;
     font-family: Verdana, Arial;
-    margin-right: 5vw;
-    top:4vh;
     font-size: 2vw;
 }
 
@@ -327,34 +312,26 @@ h4
 /*Redes sociales*/
 .RedesSociales
 {
-    position: relative;
-    display: flex;
     top: 1vh;
-    
-    left: 10%;
-    width: 80%;
-    bottom: 2vh;
-    flex-direction: row;
 
+    width: 20%;
+    align-items: center;
 }
 
 .Creadores
 {
-    position: relative;
     top: 1vh;
-    flex: 1;
-    
+
     font-family: Verdana, Arial;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1vw;
 }
 
 .redsociamimg
 {
-    margin-left: 1vw;
-    height: 4vh;
-    position: relative;
-   
+    margin-left: 3.5vw;
+    height: 2vw;   
 }
 
 .Encabezado  a
@@ -364,34 +341,20 @@ h4
     text-decoration: none;
 }
 /* Slide*/
-.ContenedorDeSlide
+.slider
 {
-    background-color:white;
-    top:14vh;
-    position: relative;
-    width: auto;
-    height: 55vw;
-    display: flex;
-  
-    align-items: center;
-    padding: 2vw;
+    top: 4vh;
+    width: 100%;
+    overflow: hidden;
 }
 /*Resourc*/
-.slider {
-    
-    position: relative;
-	width: 95%;
-	margin: auto;
-    overflow: hidden;
-    height: 50vh;
 
-}
 
 .slider ul {
 	display: flex;
 	padding: 0;
 	width: 400%;
-	height: 1vh;
+	
 	animation: cambio 20s infinite alternate linear;
 }
 
@@ -401,8 +364,10 @@ h4
 }
 
 .slider img {
+    
     width: 100%;
-    height: 50vw;
+    height: 40vw;
+    
 }
 
 @keyframes cambio {
