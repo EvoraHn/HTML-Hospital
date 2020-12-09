@@ -60,7 +60,8 @@ h1
     position: relative;
     float: right;
     right:10%;
-    font-size: 2vw;
+    /*Esta es la fuente que cambie*/
+    font-size: 3.2vw;
     text-align: right;
     font-family: Verdana, Arial;
     color: #FFFFFF;
