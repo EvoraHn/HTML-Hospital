@@ -10,14 +10,18 @@ Index
 
 .Encabezado
 {
-    width: auto;
-    height: 9em;
+    display: flex;
+    width: 100vw;
+    height: 19vh;
     position: fixed;
     top: 0em;
     left: 0em;
     right: 0em;
     background-color: #049dd9;
     z-index: 1;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -25,36 +29,39 @@ Index
 
 .Contenido
 {
-    position: absolute;
-    top: 9em;
-    left: 10%;
-    right: 10%;
-    width: 80%;
-    height: 180em;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
+    width: 80vw;
+    height:auto;
+    background-color: #FFFFFF; 
 }
 
 
 
 .Pie
 {
-    width: auto;
-    height: 8.125em;
-    top: 189em;
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    top: 0em;
     left: 0em;
-    right: 0em;   
-    position: absolute;
-    background-color:  #049dd9;
-}
+    right: 0em;
 
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #049dd9;
+   
+}
 /*! Encabezados*/
 /*Titulo*/
 h1
 {
+   
+    top:2vh;
     position: relative;
-    right: 10%;
-    font-size: 2em;
+    float: right;
+    right:10%;
+    /*Esta es la fuente que cambie*/
+    font-size: 3.2vw;
     text-align: right;
     font-family: Verdana, Arial;
     color: #FFFFFF;
@@ -63,53 +70,60 @@ h1
 /*Banda blanca con lista de directorios*/
 .BandaBlanca
 {
-
-    
+    align-items: center;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    height: 2em;
-    width: auto;
-    top: 1em;
-    bottom: 1em;
+    height: 2vh;
+    width: 100vw;
+    bottom: 0.1vh;
+    flex-direction: row;
     background: #FFFFFF;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .EnlaceRutaHouse
 {
+   
     position: relative;
     font-family: Verdana, Arial;
-    top: 10%;
     float: left;
-    height: 1.5em;
+    height: 2.5vh;
     bottom: 10%;
-    left: 20%;
-    
+       
 }
 
 .EnlaceRutaHistoria
 {
+    font-size: 2vw;
     position: relative;
     font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 1em;
-    left: 35%;
+   
+    float: left;
+   
 }
 
 .EnlaceRutaServicios
 {
+    font-size: 2vw;
     position: relative;
     font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 1em;
-    left: 48%;
+    
+
+    float: left;
 }
 
 .EnlaceRutaContactanos
 {
+
     position: relative;
     font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 1em;
-    left: 60%;
+   
+    font-size: 2vw;
+   
+    float: left;
 }
 
 .Logo
@@ -117,7 +131,7 @@ h1
     position: relative;
     top: 12%;
     float: left;
-    height: 40%;
+    height: 8vh;
     bottom: 10%;
     left: 10%;
 }
@@ -132,7 +146,8 @@ margin: 7em;
 {
     position: relative;
     display: flex;
-    height: 36em;
+    flex:1;
+    top: 18vh;
 }
 
 
@@ -140,10 +155,10 @@ margin: 7em;
 {
     position: relative;
     flex: 1;
-    top: 16em;
-    left: 8em;
-    width: 30em;
-    height: 16em;
+    
+    justify-content: flex-end;
+    padding: 1vw;
+    
 }
 
 .MarcoDeInformacion
@@ -179,7 +194,7 @@ margin: 7em;
 h2
 {
     position: relative;
-    
+    font-size: 4vw;
     text-align: left;
     font-family: Verdana, Arial;
     font-weight: bold;
@@ -189,6 +204,7 @@ h4
 {
     font-family: Verdana, Arial;
     color: #57D6F2;
+    font-size: 2vw;
 }
 
 
@@ -197,12 +213,14 @@ h4
 
 .ContenedorIconos
 {
-    top: 10em;
+    top: 10vh;
     position: relative;
     width: auto;
-    height: 30em;
+    height: auto;
     display: flex;
     justify-content: center;
+    padding: 10vh;
+   
 }
 
 
@@ -211,67 +229,57 @@ h4
 /*Seleccion de elementos hijo*/
 {
     position: relative;
-    flex: 1;
-    border-radius: 50px;
+    display: flex;
+    border-radius: 5vh;
     background: #ffffff;
-    box-shadow: -20px 20px 60px #d9d9d9, 
-            20px -20px 60px #ffffff;
-    margin: 3em;
-    padding: 1em;
-    width: 10em;
+    box-shadow: -2.50vh 2.50vh 7.50vh #d9d9d9, 
+    2.50vh -2.50vh 7.50vh #ffffff;
+    margin: 2vh;
+    height: 30vw;
+    width: 14vw;
+    align-items: center;
+    
+    flex-direction: column;
 }
 
 .IconosThenNoun{
+  
     position: relative;
-    top: 1em;
-    height: 9em;
-    bottom: 3em;
-    left: 0.6em;
+    width: 10vw;
 }
 
-div p
-{
-    color: #049dd9;
-}
+
 
 .TextoDeInfografia
 {
-    
+    color: #049dd9;
     position: relative;
-    width: auto;
-    height: auto;
-    top: 2em;
-    bottom: auto;
-    width: 100%;
     text-align: center;
     font-family: Arial;
+    font-size: 1.4vw;
 }
 
 /*Imagenes del centro*/
 
 .ContenedorDeAnuncio
 {
-    top: 20em;
+    top: 6vh;
     position: relative;
     width: auto;
-    height: 30em;
+    height:auto;
     display: flex;
     flex-direction: column;
-    background-color:white;
+   background-color: #ffffff;
+   padding-bottom: 7VW;;
+   align-items: center;
+
 }
 
 .ContenedorDeImagen
 {
-    position: relative;
-    top: 3em;
-    width: 50%;
-    height: 90%;
-    left: 25%;
-    bottom: 1em;
-    background: linear-gradient(145deg, #56e6e6, #ffffff);
-    box-shadow: 20px 20px 60px #575757, 
-                -20px -20px 60px #cacaca;
-    bottom: 2em;
+    margin: 2vw;
+    top: 3vh;               
+    width: 40%;
 }
 
 .ImagenDeAnuncio
@@ -289,20 +297,15 @@ div p
     font-family: Verdana, Arial;
     font-weight: bold;
     text-transform: uppercase;
-    left: 15%;
-    width: 5em;
-    font-size: 3em;
+    font-size: 5vh;
     color: #049dd9;
 }
 
 .ContenidoDelAnuncio
 {
-    
-    position: relative;
     text-align: right;
     font-family: Verdana, Arial;
-    right: 15%;
-    top: 5em;
+    font-size: 2vw;
 }
 
 
@@ -310,34 +313,26 @@ div p
 /*Redes sociales*/
 .RedesSociales
 {
-    position: relative;
-    display: flex;
-    top: 2em;
-    height: 4em;
-    left: 10%;
-    width: 80%;
-    bottom: 2em;
-    flex-direction: row;
+    top: 1vh;
+
+    width: 20%;
+    align-items: center;
 }
 
 .Creadores
 {
-    position: relative;
-    top: 1.5em;
-    flex: 25;
+    top: 1vh;
+
     font-family: Verdana, Arial;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 2vw;
 }
 
-.RedesSociales >img
+.redsociamimg
 {
-    margin: 1em;
-    position: relative;
-    top: -0.6em;
-    flex: 1;
-    width: 0.02em;
-    height: 60%;
+    margin-left: 3.5vw;
+    height: 2vw;   
 }
 
 .Encabezado  a
@@ -347,24 +342,14 @@ div p
     text-decoration: none;
 }
 /* Slide*/
-.ContenedorDeSlide
+.slider
 {
-    top: 40em;
-    position: relative;
-    width: auto;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
+    top: 4vh;
+    width: 100%;
+    overflow: hidden;
 }
 /*Resourc*/
-.slider {
-    top: 10em;
-    position: relative;
-	width: 95%;
-	margin: auto;
-    overflow: hidden;
-    height: 29em;
-}
+
 
 .slider ul {
 	display: flex;
@@ -375,12 +360,15 @@ div p
 }
 
 .slider li {
-	width: 100%;
+	width: 90%;
 	list-style: none;
 }
 
 .slider img {
-	width: 100%;
+    
+    width: 100%;
+    height: 40vw;
+    
 }
 
 @keyframes cambio {

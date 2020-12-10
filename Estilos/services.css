@@ -1,64 +1,60 @@
-
 @import url(./info.css);
-.Encabezado
-{
-     /*Canal alfa de transpariencia*/
-     width: auto;
-     height: 9em;
-     position: fixed;
-     top: 0em;
-     left: 0em;
-     right: 0em;
-     background-color: #049dd9;
-     z-index: 1;
- 
-}
+/*
+Index
+*/
+/*?Estructura*/
 .Contenedor
 {
     background-color: rgb(207, 235,247);
     
 }
 
+.Encabezado
+{
+    width: auto;
+    height: 16vw;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    right: 0vw;
+    background-color: #049dd9;
+    z-index: 1;
+    font-size: 1vw;
+    
+}
+
 .Contenido
 {
-
     position: absolute;
-    top: 12.5em;
-    left: 10%;
-    right: 10%;
-    width: 80%;
-    font-family: Verdana, Arial;
-    height: 106.125em;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    top: 15vw;
+    left: 10vw;
+    right: 1vw;
+    width: 80vw;
+    height: 160vw;
+    background: #FFFFFF 0vw 0vw no-repeat padding-box;
     opacity: 1;
+    margin-bottom: 20vw;
 }
+
+
 
 .Pie
 {
     width: auto;
-    height: 8.125em;
-    top: 118.625em;
-    left: 0em;
-    right: 0em;
-    font-family: Verdana, Arial;
+    height: 10vw;
+    top: 160vw;
+    left: 0vw;
+    right: 0vw;   
     position: absolute;
+    margin-top: 10vw;
     background-color:  #049dd9;
-}
-section h1
-{
-    position: relative;
-    left: 10%;
-    text-align: left;
-    font: normal normal normal 60px/80px Segoe UI;
-    color:black;
-    text-transform: uppercase;
 }
 
 h1
 {
     position: relative;
-    right: 10%;
-    font-size: 2em;
+    right: 10vw;
+    font-size: 3.2vw;
     text-align: right;
     font-family: Verdana, Arial;
     color: #FFFFFF;
@@ -67,73 +63,117 @@ h1
 
 h2
 {
-    position: absolute;
-    right: 60%;
+    position: relative;
     text-align: left;
-    font: normal normal normal 60px/80px Segoe UI;
-    color:black;
+    font-family: Verdana, Arial;
+    font-weight: bold;
     text-transform: uppercase;
 }
+h4
+{
+    font-family: Verdana, Arial;
+    color: rgb(21, 9, 31);
+}
+
 
 .BandaBlanca
 {
-     
     position: relative;
-    height: 2em;
+    height: 5vw;
     width: auto;
-    top: 1em;
-    bottom: 1em;
+    top: 1vw;
+    bottom: 1vw;
     background: #FFFFFF;
+    
 }
 
 .EnlaceRutaHouse
 {
     position: relative;
+    font-family: Verdana, Arial;
+    font-size: 2.5vw;
     top: 10%;
     float: left;
-    height: 80%;
+    height: 1.5em;
     bottom: 10%;
-    left: 22.5%;
+    left: 20vw;
     
 }
 
-.EnlaceRuta1
+.EnlaceRutaHistoria
 {
     position: relative;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 32.5%;
-}
-
-.EnlaceRuta2
-{
-    position: relative;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 45.5%;
-}
-
-.EnlaceRuta3
-{
-    position: relative;
-    top: 10%;
-    font-size: 2em;
-    bottom: 10%;
-    left: 57.5%;
-}
-.logo
-{
-    position: relative;
-    top: 10%;
-    float: left;
-    height: 50%;
-    bottom: 10%;
-    left: 18.5%;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 2.5vw;
+    left: 35vw;
     
 }
-.parrafo{
-    color: #000;
 
+.EnlaceRutaServicios
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 2.5vw;
+    left: 35vw;
+    margin-left: 3vw;
+}
+
+.EnlaceRutaContactanos
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 2.5vw;
+    left: 35vw;
+    margin-left: 3vw;
+}
+
+.Logo
+{
+    position: relative;
+    top: 1vh;
+    float: left;
+    height: 6vw;
+    bottom: 1vw;
+    left: 10vw;
+}
+
+.RedesSociales
+{
+    position: relative;
+    display: flex;
+    top: 2vw;
+    height: 4vw;
+    left: 10vw;
+    width: 80vw;
+    bottom: 2vw;
+    flex-direction: row;
+}
+
+.Creadores
+{
+    position: relative;
+    top: 2vw;
+    flex: 25;
+    font-family: Verdana, Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.RedesSociales >img
+{
+    margin: 1em;
+    position: relative;
+    top: -1.5vh;
+    width: 5vw;
+    height: 5vw;
+}
+
+.Encabezado  a
+{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
 }
