@@ -1,7 +1,5 @@
-/*
-Index
-*/
-/*?Estructura*/
+
+
 .Contenedor
 {
     background-color: rgb(207, 235,247);
@@ -19,10 +17,6 @@ Index
     background-color: #049dd9;
     z-index: 1;
 }
-
-
-
-
 .Contenido
 {
 
@@ -32,32 +26,23 @@ Index
     left: 10%;
     right: 10%;
     width: 80%;
-    height: 119.6em;
+    height: 250vh;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
-    /*Caja principal*/
-
 }
-
-
-
 .Pie
 {
     
     width: auto;
     height: 8.125em;
-    
-    /*Canal alfa de transpariencia*/
-    top: 128em;
+    top: 120em;
     left: 0em;
     right: 0em;
-    
     position: absolute;
     background-color:  #049dd9;
 }
 
-/*! Encabezados*/
-/*Titulo*/
+
 h1
 {
     position: relative;
@@ -68,7 +53,6 @@ h1
     color: #FFFFFF;
     text-transform: uppercase;
 }
-/*Banda blanca con lista de directorios*/
 .BandaBlanca
 {
 
@@ -133,35 +117,38 @@ h1
 
 .h2
 {
-    font: normal normal normal 60px/80px Segoe UI;
-    color: #707070;
+    font: normal normal normal 6vw/8vw Segoe UI;
+    color: #3d3b3b;
     text-transform: uppercase;
-    font-size: xx-large;
+    font-size: 10vh;
 
 }
 .divtitulo
 {
-    margin-left: 5%;
+    margin-left: 10vh;
     position: relative;
-    font: normal normal normal 60px/80px Segoe UI;
+    font: normal normal normal 10vw/12 vw Segoe UI;
 
 }
 
 .divPrincipal
 {
     width: auto;
-    height: 70em;
+    height: 150vh;
     position: relative;
+
 }
+
 .divImagenHistoria
 {
-    width: 35%;
-    height: 35%;
-    margin-right: 4em;
+    width: 25vw;
+    height: 70vh;
+    margin-right: 4vw;
     display: flex;
     float: right;
     display: flex;
-    margin-top: 6em;
+    margin-top: 20vh;
+    position: relative;
 }
 .imagen
 {
@@ -170,18 +157,19 @@ h1
 }
 .divParrafo
 {
-    width: 52%;
-    height: 52%;
-    /*margin-left: 4em;*/
+    width: 45vw;
+    height: 1590vh;
     display: flex;
     float: left;
-    margin-left: 4em;
+    margin-left: 2%;
+    position: flex;
+
     
 }
 .parrafo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    line-height: 1.5em;
+    line-height: 3.5vh;
     text-align: justify;
 }
 
@@ -190,7 +178,7 @@ h1
 .parrafoV{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    line-height: 1.5em;
+    line-height: 2.5vh;
     color: black;
     text-align: center;
 }
@@ -198,24 +186,24 @@ h1
 .divParrafoV
 {
     width: auto;
-    height: 25em;
+    height: 25vh;
     position: absolute;
     
-    top: 80em;
+    top: 165vh;
     
 }
 
 .divVal
 {
     width: auto;
-    height: 45em;
+    height: 80vh;
     position: relative;
     background-image: url('../Imagenes/fondo\ pagina\ hospital.jpg');
     background-size: cover;
     opacity: 0.4;
 }
 h3{
-    font-size: 4em;
+    font-size: 4vw;
     display: flex;
     align-items: center ;
     justify-content: center;
@@ -235,8 +223,8 @@ h3{
     position: relative;
     
     display: flex;
-    top: 2em;
-    height: 4em;
+    top: 2vh;
+    height: 4vh;
     left: 10%;
     width: 80%;
     bottom: 2em;
@@ -269,3 +257,185 @@ h3{
     font-weight: bold;
     text-decoration: none;
 }
+
+
+@media screen and  (max-width: 411px) {
+    .divImagenHistoria
+{
+    width: 45vw;
+    height: 25vh;
+    margin-right: 17vw;
+    display: inline-flex;
+    margin-top: 2vh;
+    align-self: center;
+
+}
+.image
+{
+    width: 100%;
+    height: 100%;
+}
+.divParrafo
+{
+    width: 85%;
+    height: 150vh;
+    float: center;
+    margin-left: 2%;
+    position: relative;
+    margin-left: 6vw;
+    
+}
+.parrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    line-height: 2.5vh;
+    text-align: center;
+}
+.divtitulo
+{
+    margin-left: 10vh;
+    position: relative;
+    font: normal normal normal 5vw/7vw Segoe UI;
+    margin-top:  3vh;
+
+}
+.divPrincipal
+{
+    width: auto;
+    height: 300vh;
+    position: relative;
+}
+.divParrafoV
+{
+    width: auto;
+    height: 25vh;
+    position: absolute;
+    margin-top: 140vh;
+    
+}
+
+.divVal
+{
+    width: auto;
+    height: 115vh;
+    position: relative;
+    background-image: url('../Imagenes/fondo\ pagina\ hospital.jpg');
+    background-size: cover;
+    opacity: 0.4;
+}
+.Contenido
+{
+
+    position: absolute;
+    
+    top: 9em;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 430vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Pie
+{
+    
+    width: auto;
+    height: 8.125vhs;
+    
+    /*Canal alfa de transpariencia*/
+    top: 435vh;
+    left: 0vw;
+    right: 0vw;
+    position: absolute;
+    background-color:  #049dd9;
+}
+
+}
+@media screen and  (width: 768px) {
+    .divImagenHistoria
+    {
+        width: 25vw;
+        height: 20vh;
+        display: inline-flex;
+        margin-top: 2vh;
+        align-self: right;
+    
+    }
+    .image
+    {
+        width: 100%;
+        height: 100%;
+    }   
+    .Contenido
+    {
+        position: absolute;
+        top: 9em;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        height: 290vh;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .divPrincipal
+    {
+        width: auto;
+        height: 200vh;
+        position: relative;
+    }
+    .divParrafoV
+    {
+        width: auto;
+        height: 25vh;
+        position: absolute;
+        margin-top: 35vh;
+        
+    }
+    .Pie
+    {
+        width: auto;
+        height: 8.125vhs;
+        top: 293vh;
+        left: 0vw;
+        right: 0vw;
+        position: relative;
+        background-color:  #049dd9;
+    }
+}
+@media screen and  (max-height: 1024px) {
+     
+    .Contenido
+    {
+        position: absolute;
+        top: 9em;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        height: 400vh;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .divPrincipal
+    {
+        width: auto;
+        height: 300vh;
+        position: relative;
+    }
+    .divParrafoV
+    {
+        width: auto;
+        height: 25vh;
+        position: absolute;
+        margin-top: 145vh;
+        
+    }
+    .Pie
+    {
+        width: auto;
+        height: 8.125vhs;
+        top: 402vh;
+        left: 0vw;
+        right: 0vw;
+        position: absolute;
+        background-color:  #049dd9;
+    }

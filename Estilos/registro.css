@@ -1,0 +1,216 @@
+@import url(./info.css);
+/*
+Index
+*/
+/*?Estructura*/
+.Contenedor
+{
+    background-color: rgb(207, 235,247);
+}
+
+.Encabezado
+{
+    width: auto;
+    height: 9em;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: #049dd9;
+    z-index: 1;
+}
+
+
+
+
+.Contenido
+{
+    position: absolute;
+    top: 9em;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 180em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+
+.Pie
+{
+    width: auto;
+    height: 8.125em;
+    top: 189em;
+    left: 0em;
+    right: 0em;   
+    position: absolute;
+    background-color:  #049dd9;
+}
+
+/*! Encabezados*/
+/*Titulo*/
+h1
+{
+    position: relative;
+    right: 10%;
+    font-size: 2em;
+    text-align: right;
+    font-family: Verdana, Arial;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+/*Banda blanca con lista de directorios*/
+.BandaBlanca
+{
+
+    
+    position: relative;
+    height: 2em;
+    width: auto;
+    top: 1em;
+    bottom: 1em;
+    background: #FFFFFF;
+}
+
+.EnlaceRutaHouse
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 10%;
+    float: left;
+    height: 1.5em;
+    bottom: 10%;
+    left: 20%;
+    
+}
+
+.EnlaceRutaHistoria
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 35%;
+}
+
+.EnlaceRutaServicios
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 48%;
+}
+
+.EnlaceRutaContactanos
+{
+    position: relative;
+    font-family: Verdana, Arial;
+    top: 0.4em;
+    font-size: 1em;
+    left: 60%;
+}
+
+.Logo
+{
+    position: relative;
+    top: 12%;
+    float: left;
+    height: 40%;
+    bottom: 10%;
+    left: 10%;
+}
+
+
+
+
+/*Redes sociales*/
+.RedesSociales
+{
+    position: relative;
+    display: flex;
+    top: 2em;
+    height: 4em;
+    left: 10%;
+    width: 80%;
+    bottom: 2em;
+    flex-direction: row;
+}
+
+.Creadores
+{
+    position: relative;
+    top: 1.5em;
+    flex: 25;
+    font-family: Verdana, Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.RedesSociales >img
+{
+    margin: 1em;
+    position: relative;
+    top: -0.6em;
+    flex: 1;
+    width: 0.02em;
+    height: 60%;
+}
+
+.Encabezado  a
+{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Slide*/
+.ContenedorDeSlide
+{
+    top: 40em;
+    position: relative;
+    width: auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+/*Resourc*/
+.slider {
+    top: 10em;
+    position: relative;
+	width: 95%;
+	margin: auto;
+    overflow: hidden;
+    height: 29em;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
