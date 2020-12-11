@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Estilos/contactanos.css">
-    <title>Contactanos</title>    
+    <title>Contactanos</title>   
+    <script src="../javaScript/Contactanos.js" ></script> 
 </head>
 <body class="Contenedor">
- 
+<div style="align-items: center; flex-direction: column ;display: flex;" >
     <div class="Encabezado">
-        <img class="Logo" src="../Vectores/VectorLogoBlanco.svg"/>
+        <img href="./index.html" class="Logo" src="../Vectores/VectorLogoBlanco.svg"/>
         <h1>Centro medico bandaids</h1>
 
         <div class="bandaBlanca">
@@ -32,7 +33,7 @@
             
         </div>
     </div>
-
+    <!--
     <div class="Contenido" >
         <h2>Contacto</h2>
         <div id="contact">
@@ -143,17 +144,51 @@
             </div>
         </div>
     </div>
+    -->
+    <form action="./Contactanos.html" method="POST" onsubmit="return validarContacto()">
+        <h2>CONTACTO</h2>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required class="validate" autocomplete="off">
+        <input type="text" name="Correo" id="Correo" placeholder="Correo" required class="validate" autocomplete="off">
+        <input type="text" name="Asunto" id="Asunto" placeholder="Asunto" required class="validate" autocomplete="off">
+        <input type="text" name="Telefono" id="Telefono" placeholder="Teléfono" required class="validate" autocomplete="off">
+        <textarea name="mensaje" id="mensaje" placeholder="Escriba aqui su mensaje" required class="validate" autocomplete="off"></textarea>
+        <input type="submit" value="ENVIAR" id="boton">
+    </form>
+
+    <div class="card">
+        <strong>HONDURAS</strong>
+        <p>Band Aids</p> 
+        <p>+504 2215-20-45</p> 
+        <p>Calle San Juan, edificio planta baja</p>
+        <p>Oficina 2</p>
+        <p>Tegucigalpa</p>
+        <br>
+        <strong>MÉXICO</strong>
+        <p>Working Solutions</p> 
+        <p>www.workingsolutions.mx</p>
+        <p>+52 1 55 1953 8371</p>
+        <p>Circuito Valle de la Luna 4-36, Fracc Zibatá El Marques</p>
+        <P>Querétaro 76269 México</P>
+        <br>
+        <strong>CHILE</strong> 
+        <p>QUINTAVIA</p>
+        <p>+562 2 26 40 865 / +562 2 2649 685​</p>
+        <p>soporte@cliniccloud.cl</p>
+        <p>chile@clinic-cloud.com</p>
+        <p>Avda. Providencia 1308, Quinto Piso Oficina 2-B​ </p>
+        <P>Providencia​ Región Metropolitana</P>
+    </div>
         
-    <div class="PiePagina">
-        <div class="RedesSociales">
-            <span class="Creadores">
+    <div class="Pie">
+        <div class="Creadores">
                 ajem develop
-            </span>
-            <img src="../Redes sociales/Facebook.png"></img>
-            <img src="../Redes sociales/instagram.png"/>
-            <img src="../Redes sociales/twitter.png" />
         </div>
-        
+        <div class="RedesSociales">
+            
+            <img class="redsociamimg" src="../Redes sociales/Facebook.png"></img>
+            <img class="redsociamimg" src="../Redes sociales/instagram.png"/>
+            <img class="redsociamimg" src="../Redes sociales/twitter.png" />
+        </div>
     </div>
 </body>
 </html>
