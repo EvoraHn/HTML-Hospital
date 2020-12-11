@@ -30,8 +30,9 @@ Index
 .Contenido
 {
     width: 80vw;
-    height:auto;
-    background-color: #FFFFFF; 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -44,12 +45,10 @@ Index
     top: 0em;
     left: 0em;
     right: 0em;
-
     flex-wrap: wrap ;
     align-items: center;
     justify-content: space-around;
     background-color: #049dd9;
-   
 }
 /*! Encabezados*/
 /*Titulo*/
@@ -105,6 +104,17 @@ h1
    
 }
 
+.EnlaceRutaLogin
+{
+    color: #1696e7;
+    font-size: 2vw;
+    position: relative;
+    font-family: Verdana, Arial;
+   
+    float: left;
+   
+}
+
 .EnlaceRutaServicios
 {
     font-size: 2vw;
@@ -148,26 +158,27 @@ margin: 7em;
     display: flex;
     flex:1;
     top: 18vh;
+
+    height: 40vh;
+    
 }
 
 
 .Informacion
 {
-    position: relative;
-    flex: 1;
-    
+    flex: 1.3;
     justify-content: flex-end;
-    padding: 1vw;
-    
+    margin: 1vw;
+    height: 40vh;
 }
 
 .MarcoDeInformacion
 {
-    position: relative;
+  
     flex:1;
     top: 0%;
     background-image: url('../Vectores/Recurso\ 6.svg');
-    height: 36em;
+    height: 100vw;
     background-repeat: no-repeat;
 }
 
@@ -175,9 +186,9 @@ margin: 7em;
 .CuadroDeImagen
 {
     flex: 1;
-    position: relative;
-    width: 10em;
-    height: 36em;
+    
+    width: 10vh;
+    height: 36vw;
 }
 
 .Contenido .CuadroDeImagen
@@ -199,6 +210,7 @@ h2
     font-family: Verdana, Arial;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 0em;
 }
 h4
 {
