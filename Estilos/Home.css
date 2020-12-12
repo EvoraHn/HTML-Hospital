@@ -326,7 +326,6 @@ h4
 .RedesSociales
 {
     top: 1vh;
-
     width: 20%;
     align-items: center;
 }
@@ -334,7 +333,6 @@ h4
 .Creadores
 {
     top: 1vh;
-
     font-family: Verdana, Arial;
     text-transform: uppercase;
     font-weight: bold;
