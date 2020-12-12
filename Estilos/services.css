@@ -1,18 +1,28 @@
 @import url(./info.css);
-/*
-Index
-*/
-/*?Estructura*/
+
+
+/*En todo el documento como medida principal se usará vw como medida
+como consecuencia las letras,contenedores, imagenes y demás se 
+adaptarán al ancho de la pantalla contenedora
+
+Nota: incluso si es altura la que estamos especificando se utilizará 
+vw como unidad de medida*/
+
+/*Contenedor Principal:Contiene todo en su interior*/
 .Contenedor
 {
     background-color: rgb(207, 235,247);
     
 }
+/*Zona donde se ubicarán los links logo y banda de acceso
+z index se utiliza para lograr pocicionar esta zona encima de 
+la poscición fija hace que esta zona no sea minimizable
+y al bajar en la pantalla baje con la misma*/
 
 .Encabezado
 {
     width: auto;
-    height: 16vw;
+    height: 11vw;
     position: fixed;
     top: 0vw;
     left: 0vw;
@@ -20,41 +30,52 @@ Index
     background-color: #049dd9;
     z-index: 1;
     font-size: 1vw;
+}
+/*Color especifico para los links dentro del encabezado*/
+.Encabezado  a
+{
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Banda que contiene los links a otras paginas
+la poscición relativa hace que esta zona se adapte a
+su contenedor y al bajar en la pantalla baje con la misma*/
+.BandaBlanca
+{
+    position: relative;
+    height: 2.3vw;
+    width: auto;
+    top: 1vw;
+    bottom: 1vw;
+    background: #FFFFFF;
     
 }
 
+/* Contenedor de contenido este al ser absuluto permite recorrerlo 
+haciendo scroll con el mouse o con la barra; y ver todo su contenido*/
 .Contenido
 {
     position: absolute;
-    top: 15vw;
+    top: 11vw;
     left: 10vw;
     right: 1vw;
     width: 80vw;
-    height: 160vw;
+    height: 150vw;
     background: #FFFFFF 0vw 0vw no-repeat padding-box;
     opacity: 1;
-    margin-bottom: 20vw;
+    
 }
 
-
-
-.Pie
-{
-    width: auto;
-    height: 10vw;
-    top: 160vw;
-    left: 0vw;
-    right: 0vw;   
-    position: absolute;
-    margin-top: 10vw;
-    background-color:  #049dd9;
-}
-
+/*Estilos de fuente para los titulos*/
+/*Nombre de la Empresa*/
 h1
 {
+    top: .5vw;
     position: relative;
     right: 10vw;
-    font-size: 3.2vw;
+    font-size: 2.3vw;
     text-align: right;
     font-family: Verdana, Arial;
     color: #FFFFFF;
@@ -69,111 +90,87 @@ h2
     font-weight: bold;
     text-transform: uppercase;
 }
+/*titulos de los servicios que se ofrecen*/
 h4
 {
     font-family: Verdana, Arial;
     color: rgb(21, 9, 31);
 }
 
-
-.BandaBlanca
-{
-    position: relative;
-    height: 5vw;
-    width: auto;
-    top: 1vw;
-    bottom: 1vw;
-    background: #FFFFFF;
-    
-}
-
+/*Estilo para el logo, el cual da acceso a la pantalla principal*/
 .EnlaceRutaHouse
 {
     position: relative;
     font-family: Verdana, Arial;
-    font-size: 2.5vw;
-    top: 10%;
+    font-size: 1.3vw;
+    top:.28vw;
     float: left;
     height: 1.5em;
     bottom: 10%;
     left: 20vw;
-    
 }
 
-.EnlaceRutaHistoria
+/* Estilo para los links de acceso a las demás paginas*/
+.EnlaceRutas
 {
     position: relative;
     font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 2.5vw;
-    left: 35vw;
-    
+    font-size: 2vw;
+    left: 25vw;
+    margin-left: 9vw;
 }
-
-.EnlaceRutaServicios
-{
-    position: relative;
-    font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 2.5vw;
-    left: 35vw;
-    margin-left: 3vw;
-}
-
-.EnlaceRutaContactanos
-{
-    position: relative;
-    font-family: Verdana, Arial;
-    top: 0.4em;
-    font-size: 2.5vw;
-    left: 35vw;
-    margin-left: 3vw;
-}
-
+/*Logo del proyecto ubicado en la parte superior izquierda , 
+se adapta al tamaño de la pantalla*/
 .Logo
 {
     position: relative;
-    top: 1vh;
+    top: .5vw;
     float: left;
-    height: 6vw;
+    height: 5vw;
     bottom: 1vw;
     left: 10vw;
 }
-
+/* contenedor de las redes sociales, tanto el nombre 
+como los iconos*/
 .RedesSociales
 {
-    position: relative;
-    display: flex;
-    top: 2vw;
-    height: 4vw;
-    left: 10vw;
-    width: 80vw;
-    bottom: 2vw;
-    flex-direction: row;
+    top: 1vh;
+    width: 20%;
+    align-items: center;
 }
-
+/* ubicacion y estilo para las letras */
 .Creadores
 {
-    position: relative;
-    top: 2vw;
-    flex: 25;
+    top: 1vh;
     font-family: Verdana, Arial;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2vw;
+
 }
+/* dentro de redes sociales irán iconos, estos son 
+los que se adaptarán a esta plantilla */
 .RedesSociales >img
 {
-    margin: 1em;
-    position: relative;
-    top: -1.5vh;
-    width: 5vw;
-    height: 5vw;
+    margin-left: 3.5vw;
+    height: 2vw;
 }
 
-.Encabezado  a
+/*Pie de pagina, al ser absoluto su poscición estará fija y solo
+será visible al llegar a dicha poscición*/
+.Pie
 {
-    color: #000000; 
-    font-weight: bold;
-    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 9vw;
+    top: 160vw;
+    left: 0em;
+    right: 0em;
+    flex-wrap: wrap ;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    background-color: #049dd9;
 }
+
+   
