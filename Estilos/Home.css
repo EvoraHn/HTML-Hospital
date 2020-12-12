@@ -104,16 +104,17 @@ h1
    
 }
 
-.EnlaceRutaLogin
+.EnlaceRutaLogin, .EnlaceRutaRegistro 
 {
     color: #1696e7;
     font-size: 2vw;
     position: relative;
     font-family: Verdana, Arial;
-   
+    
     float: left;
    
 }
+
 
 .EnlaceRutaServicios
 {
